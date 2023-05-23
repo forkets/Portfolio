@@ -3,4 +3,17 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+}
+
+.header a img {
+  width: 64px;
+  height: 64px;
+}
+
+.nav-bar {
+  background-color: #84ACCE;
+}
+
+.landing-info img {
+  width: 75vw;
 }/*# sourceMappingURL=main.css.map */

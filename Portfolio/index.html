@@ -6,24 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction</title>
-    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
     <div class="container">
         <!-- header component -->
-        <header>
+        <header class="header">
             <a href="/"><img src="images/icon.jpg"></a>
         </header>
 
     <!-- navigation component -->
-    <nav>
-        <ul class="nav-bar">
-            <li><a href="pages/about.html">About Me</a>
-            <li><a href="pages/blog1.html">Blog</a>
-            <li><a href="pages/contact.html">Contact</a>
-        </ul>
-    </nav>
+    <label for="menu"></label>
+        <select name="menu" id="menu">
+            <option value="menu">Menu</option>
+            <option value="about"><a href="pages/about.html">About Me</a></option>
+            <option value="blog"><a href="pages/blog.html">Blog</a></option>
+            <option value="contact"><a href="pages/contact.html">Contact</a></option>
+        </select>
+    
 
     <!-- landing component -->
         <section class="landing">
