@@ -2,5 +2,11 @@
     margin: 0;
     padding: 0;
     border: 0;
-    box-sizing: border-box;
+    
+}
+.container {
+    background-image: linear-gradient(to bottom, rgba(132, 172, 206, 1), rgba(61, 52, 139, 1));
+}
+a {
+    text-decoration: none;
 }
