@@ -41,10 +41,12 @@ a {
   width: 75vw;
   padding: 10px;
 }
-
-p {
+.landing-info p {
   text-align: center;
   text-align: justify;
+  padding: 10px;
+}
+.landing-info h1 {
   padding: 10px;
 }
 
@@ -65,4 +67,12 @@ p {
 .footer-links img {
   width: 50px;
   height: 50px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+.projects img {
+  width: 80vw;
 }/*# sourceMappingURL=main.css.map */
