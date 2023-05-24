@@ -1,7 +1,35 @@
 .projects {
+    padding-top: 10px;
+    list-style-type: none;
     display: flex;
     flex-direction: column;
-    img {
-        width: 80vw;
+    align-items: center;
+    flex-wrap: wrap;
+    li {
+        list-style-type: none;
+        padding-bottom: 15px;
+        padding-top: 10px;
+        border: 1px solid $border-color;
+        border-radius: 5px;
     }
+}
+
+.project-cards {
+    width: 95vw;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.resume {
+    border: 2px solid $border-color;
+    background-color: rgb(129, 77, 153);
+    color: $border-color;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.resume:hover,
+.resume:active {
+    background-color:rgb(88, 41, 109);
 }
