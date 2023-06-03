@@ -19,14 +19,6 @@ li {
   list-style-type: none;
 }
 
-@media screen and (min-width: 800px) {
-  .landing img {
-    width: 600px;
-  }
-  .nav-bar {
-    flex-direction: row;
-  }
-}
 .header a img {
   width: 64px;
   height: 64px;
