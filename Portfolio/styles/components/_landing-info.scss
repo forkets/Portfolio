@@ -12,4 +12,11 @@
     }
 }
 
-
+@media screen and (min-width: 800px) {
+    .landing {
+            img {
+            width: 300px;
+            }
+        }
+    .nav-bar {flex-direction: row;}
+    }

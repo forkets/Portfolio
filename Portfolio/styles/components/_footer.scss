@@ -1,9 +1,9 @@
 .footer-links {
-    list-style-type: none;
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: 2px solid $border-color;
     display: flex;
     justify-content: space-evenly;
-
+    align-items: flex-end;
 }
+

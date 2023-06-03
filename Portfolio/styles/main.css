@@ -5,14 +5,28 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.container {
+body {
   background-image: linear-gradient(to bottom, rgb(132, 172, 206), rgb(61, 52, 139));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 800px) {
+  .landing img {
+    width: 600px;
+  }
+  .nav-bar {
+    flex-direction: row;
+  }
+}
 .header a img {
   width: 64px;
   height: 64px;
@@ -28,8 +42,12 @@ a {
 }
 
 .landing-info img {
-  width: 75vw;
+  width: 50vw;
   padding: 10px;
+}
+
+.blog-cards img {
+  width: 50vw;
 }
 
 .nav-bar {
@@ -48,14 +66,6 @@ a {
   font-size: 1.5rem;
 }
 
-@media screen and (min-width: 800px) {
-  .landing img {
-    width: 600px;
-  }
-  .nav-bar {
-    flex-direction: row;
-  }
-}
 .landing-info {
   display: flex;
   flex-direction: column;
@@ -70,31 +80,28 @@ a {
   padding: 10px;
 }
 
+@media screen and (min-width: 800px) {
+  .landing img {
+    width: 300px;
+  }
+  .nav-bar {
+    flex-direction: row;
+  }
+}
 .header {
   box-sizing: border-box;
   width: 100vw;
   background-color: rgba(132, 172, 206, 0);
 }
 
-.footer-links {
-  list-style-type: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-top: 2px solid rgb(221, 220, 220);
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .projects {
   padding-top: 10px;
-  list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
 }
 .projects li {
-  list-style-type: none;
   padding-bottom: 15px;
   padding-top: 10px;
   border: 1px solid rgb(221, 220, 220);
@@ -118,5 +125,54 @@ a {
 
 .resume:hover,
 .resume:active {
+  background-color: rgb(88, 41, 109);
+}
+
+@media screen and (min-width: 800px) {
+  .projects img {
+    width: 600px;
+  }
+  .nav-bar {
+    flex-direction: row;
+  }
+}
+.blog-cards {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+.blog-cards li {
+  padding-bottom: 15px;
+  padding-top: 10px;
+  border: 1px solid rgb(221, 220, 220);
+  border-radius: 5px;
+}
+
+.footer-links {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 2px solid rgb(221, 220, 220);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.contact #message {
+  vertical-align: text-top;
+  width: 300px;
+  padding-bottom: 200px;
+  padding-left: 5px;
+}
+
+input[type=submit] {
+  border: 2px solid rgb(221, 220, 220);
+  background-color: rgb(129, 77, 153);
+  color: rgb(221, 220, 220);
+  padding: 5px;
+  border-radius: 30px;
+}
+
+input[type=submit]:hover {
   background-color: rgb(88, 41, 109);
 }/*# sourceMappingURL=main.css.map */
