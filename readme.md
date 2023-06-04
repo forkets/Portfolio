@@ -1,4 +1,4 @@
-![image](images/icon-new.png)
+![image](src/images/icon-new.png)
 # Alex Coad's Portfolio
 
 ## __Purpose__
@@ -23,7 +23,7 @@ To access the site and all its code, feel free to use the Github link below.
 Here we can see a couple of screenshots of the website as viewed on a mobile device and desktop browser.
 ![image](images/mobile-home.png)  ![image](images/mobile-about.png)
 ![image](images/desktop-home.png)
-![image](images/desktop-about.png)
+![image](/images/desktop-about.png)
 
 ## __Where to find me__
 I can be found on [Github](https://github.com/forkets/Portfolio) and [LinkedIn](https://www.linkedin.com/in/alex-coad-60a3b5251/)
