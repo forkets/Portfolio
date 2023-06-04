@@ -1,4 +1,4 @@
-![image](src/images/icon-new.png)
+![image](images/icon-new.png)
 # Alex Coad's Portfolio
 
 ## __Purpose__
@@ -20,7 +20,7 @@ To access the site and all its code, feel free to use the Github link below.
 ![image](images/sitemap.png)
 
 ## __Screenshots__
-Here we can see a couple of screenshots of the website as viewed on a mobile device and desktop browser.
+Here we can see a couple of screenshots of the website as viewed on a mobile device and desktop browser.  
 ![image](images/mobile-home.png)  ![image](images/mobile-about.png)
 ![image](images/desktop-home.png)
 ![image](/images/desktop-about.png)
@@ -31,6 +31,10 @@ I can be found on [Github](https://github.com/forkets/Portfolio) and [LinkedIn](
 ## __Tech Stack__
 ![image](https://img.shields.io/badge/HTML5-red) ![image](https://img.shields.io/badge/CSS-blue)
 ![image](https://img.shields.io/badge/Git-black) ![image](https://img.shields.io/badge/Netlify-97F9F9)
+
+## Links
+[Portfolio Site](https://alexcoad.netlify.app/index.html)  
+[Presentation Video](https://youtu.be/CuBxuh52EkI)
 
 ## Image Credits
 I've listed some credits for images used on the Blog page. The cat is my own.
